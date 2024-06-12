@@ -1,13 +1,13 @@
 function createTable() {
     //Write your code here
-	let rows = prompt("Input number of rows:");
+	let rows = prompt("Input number of rows");
     if (rows === null || rows === "" || isNaN(rows) || rows <= 0) {
         alert("Invalid input for number of rows.");
         return;
     }
 
     // Get the number of columns from the user
-    let columns = prompt("Input number of columns:");
+    let columns = prompt("Input number of columns");
     if (columns === null || columns === "" || isNaN(columns) || columns <= 0) {
         alert("Invalid input for number of columns.");
         return;
